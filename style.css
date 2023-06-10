@@ -21,9 +21,10 @@
 	position: fixed;
 }
 
-.text-principal {
+.txt-principal {
 	color: white;
 	font-family: "Montserrat", sans-serif;
+	font-weight: 700;
 }
 
 .t-h4 {
@@ -100,4 +101,50 @@
 		transform: translateX(50%);
 		align-items: center;
 	}
+}
+
+/* Animacion de texto */
+[text-split] {
+	opacity: 0;
+}
+
+.word {
+	overflow: hidden;
+	padding-bottom: 0.1em;
+	margin-bottom: -0.1em;
+	transform-origin: bottom;
+}
+
+#txt01 {
+	font-size: 5rem;
+	width: 30%;
+}
+
+#conjunto01 {
+	top: 25%;
+	left: 15%;
+	font-size: 8rem;
+}
+
+#conjunto02 {
+	bottom: 25%;
+	right: 15%;
+	font-size: 8rem;
+}
+
+#conjunto03 {
+	bottom: 25%;
+	left: 10%;
+	font-size: 8rem;
+}
+
+#conjunto04 {
+	bottom: 25%;
+	right: 10%;
+	font-size: 8rem;
+}
+
+.txt-small {
+	font-size: 3rem;
+	margin-bottom: -3rem;
 }
