@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
-
+@import url("../fonts/Glitten-Regular.ttf");
 body {
 	min-width: 300px;
 }
@@ -17,10 +17,14 @@ body {
 	text-decoration: none;
 }
 
+@font-face {
+	font-family: "Glitten";
+	src: url("../fonts/Glitten-Regular.ttf");
+}
+
 .txt-principal {
 	color: white;
-	font-family: "Montserrat", sans-serif;
-	font-weight: 700;
+	font-family: "Glitten";
 }
 
 .t-h4 {
