@@ -2401,8 +2401,9 @@ blockquote {
 .hero-panel_img {
 	width: 100%;
 	height: 100%;
-	background-image: url("https://uploads-ssl.webflow.com/64850713ad4a2634df10ec2b/64850713ad4a2634df10ec7e_photo1.42abc711.webp");
+	background-image: url("../img/yane.webp");
 	background-position: 50%;
+
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: relative;
@@ -2450,7 +2451,7 @@ blockquote {
 
 .note-panel_img-height {
 	width: 100%;
-	background-image: url("https://uploads-ssl.webflow.com/64850713ad4a2634df10ec2b/64850713ad4a2634df10ec7f_photo2.ca0d9d58.webp");
+	background-image: url("../img/memi.webp");
 	background-position: 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
