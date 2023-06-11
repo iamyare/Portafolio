@@ -156,26 +156,26 @@ body {
 /*Tamaño mobil pequeño*/
 @media (min-width: 300px) and (max-width: 399px) {
 	#conjunto01 {
-		font-size: 3rem;
-		top: 10%;
+		font-size: 4rem;
+		top: 20%;
 		align-items: center;
 		width: 100%;
 	}
 	#conjunto02 {
-		font-size: 3rem;
-		bottom: 10%;
+		font-size: 4rem;
+		bottom: 20%;
 		align-items: center;
 		width: 100%;
 	}
 	#conjunto03 {
-		font-size: 3rem;
-		top: 10%;
+		font-size: 4rem;
+		top: 15%;
 		align-items: center;
 		width: 100%;
 	}
 	#conjunto04 {
-		font-size: 3rem;
-		bottom: 10%;
+		font-size: 4rem;
+		bottom: 15%;
 		align-items: center;
 		width: 100%;
 	}
@@ -220,24 +220,24 @@ body {
 /*Tamaño tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
 	#conjunto01 {
-		font-size: 5rem;
+		font-size: 6rem;
 		top: 20%;
 		align-items: center;
 		width: 100%;
 	}
 	#conjunto02 {
-		font-size: 5rem;
+		font-size: 6rem;
 		bottom: 20%;
 		align-items: center;
 		width: 100%;
 	}
 	#conjunto03 {
-		font-size: 5rem;
+		font-size: 6rem;
 		top: 10%;
 		width: 100%;
 	}
 	#conjunto04 {
-		font-size: 5rem;
+		font-size: 6rem;
 		bottom: 10%;
 		align-items: center;
 		width: 100%;
