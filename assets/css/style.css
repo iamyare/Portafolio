@@ -1,7 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
-@import url("../fonts/Glitten-Regular.ttf");
+
 body {
 	min-width: 300px;
+}
+
+@font-face {
+	font-family: "Glitten";
+	src: url("../fonts/Glitten-Regular.ttf");
 }
 
 .bg-glass {
@@ -15,11 +20,6 @@ body {
 .btn-links {
 	color: white;
 	text-decoration: none;
-}
-
-@font-face {
-	font-family: "Glitten";
-	src: url("../fonts/Glitten-Regular.ttf");
 }
 
 .txt-principal {
