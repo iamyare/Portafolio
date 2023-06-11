@@ -183,6 +183,9 @@ body {
 		font-size: 1.5rem;
 		margin-bottom: -1.5rem;
 	}
+	#videoTrailer {
+		background: url("pruebaaa.mp4") no-repeat center !important;
+	}
 }
 
 /*Tamaño mobil*/
@@ -214,6 +217,9 @@ body {
 	.txt-small {
 		font-size: 2rem;
 		margin-bottom: -2rem;
+	}
+	#videoTrailer {
+		background: url("pruebaaa.mp4") no-repeat center !important;
 	}
 }
 
@@ -328,4 +334,13 @@ body {
 		font-size: 3rem;
 		margin-bottom: -3rem;
 	}
+}
+
+.desk {
+	background-image: url("Portada-Comprimida2.webp") !important;
+}
+
+.blas {
+	z-index: 10;
+	position: relative;
 }
