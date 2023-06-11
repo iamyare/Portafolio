@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap");
 
+body {
+	min-width: 300px;
+}
+
 .bg-glass {
 	background: linear-gradient(0deg, rgba(255, 255, 255, 0.01), rgba(255, 255, 255, 0.01)),
 		linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0) 100%);
@@ -147,4 +151,181 @@
 .txt-small {
 	font-size: 3rem;
 	margin-bottom: -3rem;
+}
+
+/*Tamaño mobil pequeño*/
+@media (min-width: 300px) and (max-width: 399px) {
+	#conjunto01 {
+		font-size: 3rem;
+		top: 10%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto02 {
+		font-size: 3rem;
+		bottom: 10%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto03 {
+		font-size: 3rem;
+		top: 10%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto04 {
+		font-size: 3rem;
+		bottom: 10%;
+		align-items: center;
+		width: 100%;
+	}
+	.txt-small {
+		font-size: 1.5rem;
+		margin-bottom: -1.5rem;
+	}
+}
+
+/*Tamaño mobil*/
+@media (min-width: 400px) and (max-width: 767px) {
+	#conjunto01 {
+		font-size: 4rem;
+		top: 15%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto02 {
+		font-size: 4rem;
+		bottom: 15%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto03 {
+		font-size: 4rem;
+		top: 15%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto04 {
+		font-size: 4rem;
+		bottom: 15%;
+		align-items: center;
+		width: 100%;
+	}
+	.txt-small {
+		font-size: 2rem;
+		margin-bottom: -2rem;
+	}
+}
+
+/*Tamaño tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	#conjunto01 {
+		font-size: 5rem;
+		top: 20%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto02 {
+		font-size: 5rem;
+		bottom: 20%;
+		align-items: center;
+		width: 100%;
+	}
+	#conjunto03 {
+		font-size: 5rem;
+		top: 10%;
+		width: 100%;
+	}
+	#conjunto04 {
+		font-size: 5rem;
+		bottom: 10%;
+		align-items: center;
+		width: 100%;
+	}
+	.txt-small {
+		font-size: 3rem;
+		margin-bottom: -3rem;
+	}
+}
+
+/*Tamaño laptop*/
+@media (min-width: 992px) and (max-width: 1199px) {
+	#conjunto01 {
+		font-size: 6rem;
+		top: 15%;
+		left: 10%;
+	}
+	#conjunto02 {
+		font-size: 6rem;
+		bottom: 15%;
+		right: 10%;
+	}
+	#conjunto03 {
+		font-size: 5rem;
+		bottom: 10%;
+	}
+	#conjunto04 {
+		font-size: 5rem;
+		bottom: 10%;
+	}
+	.txt-small {
+		font-size: 3rem;
+		margin-bottom: -3rem;
+	}
+}
+
+/*Tamaño laptop grande*/
+@media (min-width: 1200px) and (max-width: 1399px) {
+	#conjunto01 {
+		font-size: 7rem;
+		top: 15%;
+		left: 5%;
+	}
+	#conjunto02 {
+		font-size: 7rem;
+		bottom: 15%;
+		right: 5%;
+	}
+	#conjunto03 {
+		font-size: 6rem;
+		bottom: 10%;
+		left: 5%;
+	}
+	#conjunto04 {
+		font-size: 6rem;
+		bottom: 10%;
+		right: 5%;
+	}
+	.txt-small {
+		font-size: 3rem;
+		margin-bottom: -3rem;
+	}
+}
+
+/*Tamaño laptop extra grande*/
+@media (min-width: 1400px) and (max-width: 1599px) {
+	#conjunto01 {
+		font-size: 8rem;
+		top: 15%;
+		left: 5%;
+	}
+	#conjunto02 {
+		font-size: 8rem;
+		bottom: 15%;
+		right: 5%;
+	}
+	#conjunto03 {
+		font-size: 7rem;
+		bottom: 10%;
+		left: 5%;
+	}
+	#conjunto04 {
+		font-size: 7rem;
+		bottom: 10%;
+		right: 5%;
+	}
+	.txt-small {
+		font-size: 3rem;
+		margin-bottom: -3rem;
+	}
 }
