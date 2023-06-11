@@ -107,28 +107,30 @@
 
 			</div>
 			<div data-w-id="224ca3cb-5547-8c1e-021a-06abb5359668" class="space">
-			<!--Texto-->
-			
-			<div letters-slide-up="" text-split="" class="vh-100 vw-100 position-relative">
-				<div id="conjunto03" class="txt-principal position-absolute">
-					<span class="d-flex flex-column">
-						<span class="txt-small">Entre la</span>
-						<span>Realidad</span>
-					</span>
-				</div>
 
-				<div id="conjunto04" class="txt-principal position-absolute">
-					<span class="d-flex flex-column align-items-end">
-						<span class="txt-small">y los</span>
-						<span>Sueños</span>
-					</span>
-				</div>
-			</div>
-			<!--Fin Texto-->
-				<video id="videoTrailer"  tabindex="0" autobuffer="autobuffer" preload="preload">
+				<video id="videoTrailer" muted tabindex="0" autobuffer="autobuffer" preload="preload">
 					<source type="video/mp4;" src="pruebaaa.mp4"></source>
 				  </video>
-			</div>
+
+				  			<!--Texto-->
+							  <div letters-slide-up="" text-split="" class="vh-100 vw-100 position-relative">
+								<div id="conjunto03" class="txt-principal position-absolute">
+									<span class="d-flex flex-column">
+										<span class="txt-small">Entre la</span>
+										<span>Realidad</span>
+									</span>
+								</div>
+				
+								<div id="conjunto04" class="txt-principal position-absolute">
+									<span class="d-flex flex-column align-items-end">
+										<span class="txt-small">y los</span>
+										<span>Sueños</span>
+									</span>
+								</div>
+							</div>
+				
+							<!--Fin Texto-->
+							</div>
 		</div>
 
 
@@ -148,9 +150,12 @@
 				var frameNumber = window.pageYOffset / playbackConst;
 				vid.currentTime = frameNumber;
 				window.requestAnimationFrame(scrollPlay);
+
 			}
 
 			window.requestAnimationFrame(scrollPlay);
+			
+
 		</script>
 		<!--Video-->
 
@@ -249,6 +254,10 @@
 					});
 					createScrollTrigger($(this), tl);
 				});
+
+
+
+
 				/*
 				$("[letters-slide-down]").each(function (index) {
 					let tl = gsap.timeline({ paused: true });
